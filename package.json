@@ -1,0 +1,41 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "Blog Frontend Project",
+  "author": "Ary Gustira",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "chart.js": "^2.9.3",
+    "cookie": "^0.4.0",
+    "hchs-vue-charts": "^1.2.8",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "pusher-js": "^4.4.0",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-resize-module": "^3.0.0",
+    "quill-image-uploader": "^1.0.2",
+    "vue-quill-editor": "^3.0.6",
+    "vue-social-sharing": "^2.4.7",
+    "vue2-perfect-scrollbar": "^1.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/laravel-echo": "^1.1.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
